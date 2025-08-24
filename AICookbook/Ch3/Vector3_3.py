@@ -10,3 +10,14 @@ dataframe = pd.read_csv(url)
 
 # Select first row
 dataframe.iloc[0]
+
+
+dataframe.iloc[1:4]
+
+dataframe.iloc[:4]
+
+
+dataframe = dataframe.set_index(dataframe["Name"])
+
+
+dataframe.loc["Allen, Miss Elisabeth Walton"]
